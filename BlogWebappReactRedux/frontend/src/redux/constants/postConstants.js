@@ -1,0 +1,9 @@
+export const CREATE_POST = "CREATE_POST";
+export const UPDATE_POST = "UPDATE_POST";
+export const DELETE_POST = "DELETE_POST";
+export const GET_ALL_POSTS = "GET_ALL_POSTS";
+export const GET_SINGLE_POST = "GET_SINGLE_POST";
+export const SET_GET_ALL_POSTS = "SET_GET_ALL_POSTS";
+export const SET_GET_SINGLE_POST = "SET_GET_SINGLE_POST";
+export const GET_SEARCH_POSTS = "GET_SEARCH_POSTS"
+export const SET_GET_SEARCH_POSTS = "SET_GET_SEARCH_POSTS"

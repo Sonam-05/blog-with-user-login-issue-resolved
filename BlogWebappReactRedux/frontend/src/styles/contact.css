@@ -1,0 +1,57 @@
+#contactSection{
+    background-color: #2E2D4D;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 36px;
+}
+
+.contactHeadingContainer{
+    padding-bottom: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* background-color: aqua; */
+
+}
+
+.contactHeading{
+    /* background-color: aliceblue; */
+    color: aliceblue;
+    margin-bottom: 2px;
+
+}
+
+.c_blank{
+   height: 8px;
+   width: 80%;
+   border-radius: 6px;
+   background-color: #1B1B30; 
+}
+
+.contactForm{
+    background-color: #1B1B30;
+    width: 400px;
+    padding: 16px;
+    border-radius: 6px;
+}
+
+.contactCommonContainer{
+    /* background-color: green; */
+    display: flex;
+}
+
+.contactCommonLabel{
+    /* background-color: blueviolet; */
+    width: 28%;
+    color: aliceblue;
+}
+
+.contactCommonInput{
+    /* background-color: brown; */
+    border: none;
+    width: 72%;
+    border-radius: 6px;
+    padding: 2px 16px;
+}

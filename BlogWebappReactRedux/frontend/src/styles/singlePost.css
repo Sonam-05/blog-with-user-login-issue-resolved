@@ -1,0 +1,75 @@
+.SinglePostContainer{
+    margin-top: 60px;
+    /* background-color: aqua; */
+    padding: 60px;
+}
+
+.spcImageContainer{
+    /* background-color: aquamarine; */
+}
+
+.spcImageContainer>img{
+    background-color: #000;
+    height: 300px;
+    width: 300px;
+}
+
+.spcContentContainer{
+    /* background-color: green; */
+}
+
+.spcContentContainer>h1{
+    padding: 16px 0px;
+}
+
+.spcContentContainer>h6{
+    /* background-color: brown; */
+    display: flex;
+    justify-content: flex-end;
+}
+
+/************ comment section conainer ****************/
+
+.commentContainer{
+    /* background-color: aqua; */
+    color: rgb(182, 176, 176);
+    margin-top: 40px;
+}
+
+.commentInput{
+    background-color: aliceblue;
+    border: none;
+    border-radius: 6px;
+    border-bottom: 1px solid rgb(176, 172, 172);
+    padding: 4px 16px;
+    font-size: 14px;
+    width: 90%;
+    margin-right: 4%;
+}
+
+.commentBtn{
+    /* background-color: blue; */
+    border: none;
+}
+
+.everyoneCommentsContainer{
+    /* background-color: aqua; */
+    margin-top: 16px;
+    color: #000;
+}
+
+.everyoneCommentsContainer > .singleCommentContainer{
+    /* background-color: violet; */
+}
+
+.singleComment{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 95%;
+}
+
+.singleComment span{
+    font-style: italic;
+    font-size: 13px;
+}

@@ -1,0 +1,38 @@
+.PostForm{
+    /* background-color: greenyellow; */
+}
+
+.postForm{
+    /* background-color: blue; */
+    box-shadow: 1px 1px 2px 2px rgb(198, 212, 224) !important;
+    padding: 26px 36px;
+    border-radius: 6px;
+    width: 100%;
+}
+
+.postCommonContainer{
+
+}
+
+.postCommonLabel{
+    
+}
+
+.postCommonInput{
+    background-color: #000;
+    border: none;
+    border-radius: 6px;
+    padding: 2px 16px;
+    color: #fff;
+}
+
+@media screen and (max-width : 700px) {
+    .PostForm{
+        display: flex;
+        justify-content: center;
+    }
+    
+    .postForm{
+        width: 280px;
+    }
+}

@@ -1,0 +1,12 @@
+.PostFormWithPosts{
+    /* background-color: aquamarine; */
+    display: flex;
+    padding: 120px 40px 40px 40px;
+}
+
+@media screen and (max-width : 700px) {
+    .PostFormWithPosts{
+        /* background-color: aqua; */
+        flex-direction: column-reverse;
+    }
+}
